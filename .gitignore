@@ -1,0 +1,26 @@
+# 🚫 Ignore the virtual environment
+myaienv/
+.env
+
+# 🚫 Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🚫 Ignore the local configuration file for Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# 🚫 Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🚫 Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🚫 Ignore logs & temporary files
+logs/
+*.log
